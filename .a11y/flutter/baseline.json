@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.0",
+  "tool_version": "0.2.1",
   "engines": {
-    "static": "0.2.0",
-    "runtime": "0.2.0"
+    "static": "0.2.1",
+    "runtime": "0.2.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:15:08.347723Z",
-  "updated_at": "2026-11-09T22:15:08.347723Z",
+  "updated_at": "2026-11-09T22:29:54.810506Z",
   "summary": {
     "finding_count": 1339,
     "by_severity": {
@@ -667,7 +667,7 @@
       "screen_id": "date-picker-form-field"
     },
     {
-      "id": "sha256:d8ada1ad08d5804580d0b991ca6f842f64483315ffd48723de785042b0002e35",
+      "id": "sha256:76be0e536adce89a980b051fdab65fd73d23511cef9de184766179bfacc6dd44",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -676,7 +676,7 @@
       "file_path": "example/lib/pages/icon_button.dart",
       "line": 72,
       "column": 25,
-      "message_hash": "sha256:6e728b44011bb261",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "icon-button"
     },
     {
