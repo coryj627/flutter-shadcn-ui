@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.1",
+  "tool_version": "0.3.0",
   "engines": {
-    "static": "0.2.1",
-    "runtime": "0.2.1"
+    "static": "0.3.0",
+    "runtime": "0.3.0"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:15:08.347723Z",
-  "updated_at": "2026-11-09T22:29:54.810506Z",
+  "updated_at": "2026-11-10T04:26:06.866627Z",
   "summary": {
-    "finding_count": 1339,
+    "finding_count": 1338,
     "by_severity": {
       "error": 995,
       "warning": 296,
-      "info": 48
+      "info": 47
     }
   },
   "findings": [
@@ -691,19 +691,6 @@
       "column": 22,
       "message_hash": "sha256:7d1f5a680820833f",
       "screen_id": "portal"
-    },
-    {
-      "id": "sha256:54bdfe80fd064afc22488e0b4d51121e515839198bfc949efd3d2bca087c27cb",
-      "rule_id": "flutter/runtime/traversal-order-mismatch",
-      "layer": "runtime",
-      "wcag_criterion": "2.4.3",
-      "wcag_guideline": "2.4",
-      "severity": "info",
-      "file_path": "example/lib/pages/resizable.dart",
-      "line": 73,
-      "column": 36,
-      "message_hash": "sha256:64e0cb6b8eca944a",
-      "screen_id": "resizable"
     },
     {
       "id": "sha256:10c00ce68e2c31f2e88c5c87ee15a0ee410932b3b3c1de1ba9f39c1ff5fb7e2b",
