@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.4.2",
+  "tool_version": "0.5.0",
   "engines": {
-    "static": "0.4.2",
-    "runtime": "0.4.2"
+    "static": "0.5.0",
+    "runtime": "0.5.0"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T22:15:08.347723Z",
-  "updated_at": "2026-11-11T14:27:42.929170Z",
+  "updated_at": "2026-11-11T17:42:52.238561Z",
   "summary": {
-    "finding_count": 1338,
+    "finding_count": 1337,
     "by_severity": {
-      "error": 995,
+      "error": 994,
       "warning": 296,
       "info": 47
     }
@@ -8099,7 +8099,7 @@
       "column": 38,
       "message_hash": "sha256:6b2204b22ada7ed9",
       "occurrence_key": "5",
-      "screen_id": "tabs"
+      "screen_id": "date-picker"
     },
     {
       "id": "sha256:b42366e497a38ca713ceed9460e8c9b308565bf2eabc9d09ccfea28b631c631e",
@@ -8113,20 +8113,6 @@
       "column": 38,
       "message_hash": "sha256:6b2204b22ada7ed9",
       "occurrence_key": "6",
-      "screen_id": "date-picker"
-    },
-    {
-      "id": "sha256:583a1e8362ae7124966d5f6c45b2155666071d2a59d228d6fa7b5ce9ac6e38f0",
-      "rule_id": "flutter/runtime/text-overflow-at-scale",
-      "layer": "runtime",
-      "wcag_criterion": "1.4.4",
-      "wcag_guideline": "1.4",
-      "severity": "error",
-      "file_path": "lib/src/components/button.dart",
-      "line": 1146,
-      "column": 38,
-      "message_hash": "sha256:6b2204b22ada7ed9",
-      "occurrence_key": "7",
       "screen_id": "date-picker-form-field"
     },
     {
