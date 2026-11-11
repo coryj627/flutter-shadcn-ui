@@ -24,8 +24,8 @@ Future<void> _audit(WidgetTester tester, String route) async {
   final navigator = tester.state<NavigatorState>(find.byType(Navigator).first);
   // ignore: unawaited_futures
   navigator.pushNamed(route);
-  await tester.pump(const Duration(milliseconds: 300));
-  await tester.pump(const Duration(milliseconds: 500));
+  // One frame builds the pushed route; auditScreen settles its transition itself.
+  await tester.pump();
   final screenId = route.substring(1);
   final result = await auditScreen(tester, screenId: screenId);
   // ignore: avoid_print
